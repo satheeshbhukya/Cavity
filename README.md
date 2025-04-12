@@ -124,5 +124,3 @@ detector.visualize_results(results, save_path='detection_result.png')
 # 4. Evaluate on a dataset
 evaluator = DatasetEvaluator(input_dir='dataset_path', output_dir='results_path')
 metrics, detailed_results = evaluator.evaluate_model(detector, num_samples=100)
-
-
